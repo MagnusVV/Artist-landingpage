@@ -513,10 +513,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.invisible {
-  visibility: hidden;
-}
-
 .absolute {
   position: absolute;
 }
@@ -525,16 +521,12 @@ video {
   position: relative;
 }
 
-.bottom-0 {
-  bottom: 0px;
-}
-
-.left-0 {
-  left: 0px;
-}
-
 .top-0 {
   top: 0px;
+}
+
+.bottom-0 {
+  bottom: 0px;
 }
 
 .m-4 {
@@ -567,20 +559,8 @@ video {
   display: grid;
 }
 
-.hidden {
-  display: none;
-}
-
 .aspect-square {
   aspect-ratio: 1 / 1;
-}
-
-.h-1\/2 {
-  height: 50%;
-}
-
-.h-screen {
-  height: 100vh;
 }
 
 .h-full {
@@ -589,6 +569,14 @@ video {
 
 .h-20 {
   height: 5rem;
+}
+
+.h-1\/3 {
+  height: 33.333333%;
+}
+
+.h-2\/3 {
+  height: 66.666667%;
 }
 
 .h-auto {
@@ -643,8 +631,14 @@ video {
   gap: 1rem;
 }
 
-.gap-2 {
-  gap: 0.5rem;
+.gap-x-0\.5 {
+  -moz-column-gap: 0.125rem;
+       column-gap: 0.125rem;
+}
+
+.gap-x-0 {
+  -moz-column-gap: 0px;
+       column-gap: 0px;
 }
 
 .place-self-center {
@@ -664,6 +658,11 @@ video {
   background-color: rgb(159 130 74 / var(--tw-bg-opacity));
 }
 
+.bg-tertiary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(9 8 9 / var(--tw-bg-opacity));
+}
+
 .bg-secundary {
   --tw-bg-opacity: 1;
   background-color: rgb(69 41 42 / var(--tw-bg-opacity));
@@ -673,26 +672,10 @@ video {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 
-.from-transparent {
-  --tw-gradient-from: transparent;
-  --tw-gradient-to: rgb(0 0 0 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.from-purple-600 {
-  --tw-gradient-from: #9333ea;
-  --tw-gradient-to: rgb(147 51 234 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
 .from-tertiary {
   --tw-gradient-from: #090809;
   --tw-gradient-to: rgb(9 8 9 / 0);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.to-\[\#9F824A\] {
-  --tw-gradient-to: #9F824A;
 }
 
 .to-transparent {
@@ -779,7 +762,19 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:overflow-x-auto {
-    overflow-x: auto;
+  .md\:flex-initial {
+    flex: 0 1 auto;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  .md\:overflow-x-visible {
+    overflow-x: visible;
   }
 }
