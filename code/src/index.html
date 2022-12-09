@@ -227,15 +227,33 @@
                 ....
             </p>
             <a id="fake-link" href="" class="text-right text-link-color font-bold underline">Read more</a>
-
             </div>
-
         </section>
     </main>
-    <footer class="bg-secundary text-white px-4 pb-4 pt-3">
-        <h2>Nightmare artist fans:</h2>
-        <p>E-mail: polishhorrorartistfans@surrart.pl</p>
-        <p>Phone: +48 22 666 13 13</p>
+    <footer class="bg-secundary text-white">
+        <div class="px-4 pb-4 pt-3 md:hidden">
+            <h2>Nightmare artist fans:</h2>
+            <p>E-mail: polishhorrorartistfans@surrart.pl</p>
+            <p>Phone: +48 22 666 13 13</p>
+        </div>
+        <div class="hidden md:contents">
+            <div class="grid grid-cols-12 grid-rows-4 px-8">
+                <h2 class="col-start-2 row-start-1 pt-4">contact</h2>
+                <div class="col-start-3 col-span-4 row-start-2 row-span-3 py-4">
+                    <h2>Nightmare artist fans:</h2>
+                    <p class="mt-10">E-mail: polishhorrorartistfans@surrart.pl</p>
+                    <p class="mt-6">Phone: +48 22 666 13 13</p>
+                </div>
+                <div class="col-start-8 col-span-4 row-start-2 row-span-3 py-4">
+                    <form>
+                        <label for="newsLetter">Sign up to newsLetter:</label>
+                        <input class="px-2.5 w-11/12" id="newsLetter" type="text" placeholder="example@yourmail.com">
+                    </form>
+                    <p class="mt-4 mb-6">More information</p>
+                    <a href="">Links</a>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
