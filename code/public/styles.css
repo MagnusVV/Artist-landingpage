@@ -778,6 +778,18 @@ video {
   flex: none;
 }
 
+.snap-x {
+  scroll-snap-type: x var(--tw-scroll-snap-strictness);
+}
+
+.snap-mandatory {
+  --tw-scroll-snap-strictness: mandatory;
+}
+
+.snap-center {
+  scroll-snap-align: center;
+}
+
 .grid-cols-10 {
   grid-template-columns: repeat(10, minmax(0, 1fr));
 }
@@ -1135,6 +1147,11 @@ video {
 
   .md\:overflow-hidden {
     overflow: hidden;
+  }
+
+  .md\:bg-\[\#826138\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(130 97 56 / var(--tw-bg-opacity));
   }
 }
 
