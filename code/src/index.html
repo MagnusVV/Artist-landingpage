@@ -1,151 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../public/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="stylesheet" href="../public/styles.css" />
     <title>The horror artist</title>
-</head>
-<body class="bg-primary text-tertiary overflow-x-hidden">
+  </head>
+  <body class="bg-primary text-tertiary overflow-x-hidden">
     <header class="text-3xl text-white">
-        <div class="relative grid md:hidden">
-            <img class="w-full h-full" src="../../artwork/untitled-1972.jpg" alt="">
-            <h1 class="absolute top-0 place-self-center">Zdzislaw Beksinski</h1>
-            <h2 class="absolute bottom-0 place-self-center text-2xl">The nightmare artist</h2>
-        </div>
-        <div class="h-20 w-full md:hidden">
-            <div id="pre gradient" class="bg-tertiary h-1/3"></div>
-            <div id="gradient" class="h-2/3 bg-gradient-to-b from-tertiary to-transparent"></div>
-        </div>
-        <div id="desktop header" class="hidden md:contents">
-            <section id="hero" class="flex">
-                <div
-                  id="hero-image-container"
-                  class="relative h-1/2 flex justify-center"
-                >
-                  <div
-                    class="h-1/2 w-full absolute bottom-0 left-0 bg-gradient-to-b from-transparent to-[#9F824A]"
-                  ></div>
-                  <img
-                    src="../../artwork/1957 Untitled.png"
-                    alt=""
-                    class="w-screen"
-                  />
-                  <div id="title-artist-name" class="absolute w-fit h-fit inset-y-1/3">
-                    <h1
-                      id="artist-name"
-                      class="text-4xl font-bold text-center text-white"
-                    >
-                      Zdzisław Beksiński<br />
-                      – the Nightmare Artist
-                    </h1>
-                  </div>
-                </div>
-              </section>
-        
-              <!-- Nav-bar -->
-        
-              <nav
-                id="nav-bar"
-                class="h-20 w-7/12 bg-[#45292A] m-auto rounded-md grid grid-cols-10 justify-items-center items-center"
+      <div class="relative grid md:hidden">
+        <img
+          class="w-full h-full"
+          src="../../artwork/untitled-1972.jpg"
+          alt=""
+        />
+        <h1 class="absolute top-0 place-self-center">Zdzislaw Beksinski</h1>
+        <h2 class="absolute bottom-0 place-self-center text-2xl">
+          The nightmare artist
+        </h2>
+      </div>
+      <div class="h-20 w-full md:hidden">
+        <div id="pre gradient" class="bg-tertiary h-1/3"></div>
+        <div
+          id="gradient"
+          class="h-2/3 bg-gradient-to-b from-tertiary to-transparent"
+        ></div>
+      </div>
+      <div id="desktop header" class="hidden md:contents">
+        <section id="hero" class="flex">
+          <div
+            id="hero-image-container"
+            class="relative h-1/2 flex justify-center"
+          >
+            <div
+              class="h-1/2 w-full absolute bottom-0 left-0 bg-gradient-to-b from-transparent to-[#9F824A]"
+            ></div>
+            <img
+              src="../../artwork/1957 Untitled.png"
+              alt=""
+              class="w-screen"
+            />
+            <div
+              id="title-artist-name"
+              class="absolute w-fit h-fit inset-y-1/3"
+            >
+              <h1
+                id="artist-name"
+                class="text-4xl font-bold text-center text-white font-noto-sans"
               >
-                <a href="" class="text-lg text-white col-span-2">About</a>
-                <a href="" class="text-lg text-white col-span-3">Notable works</a>
-                <a href="" class="text-lg text-white col-span-3">Other voices</a>
-                <a href="" class="text-lg text-white col-span-2">Contact</a>
-              </nav>
-        </div>
+                Zdzisław Beksiński<br />
+                – the Nightmare Artist
+              </h1>
+            </div>
+          </div>
+        </section>
+
+        <!-- Nav-bar -->
+
+        <nav
+          id="nav-bar"
+          class="h-20 w-7/12 bg-[#45292A] m-auto rounded-md grid grid-cols-10 justify-items-center items-center"
+        >
+          <a href="" class="text-lg text-white col-span-2">About</a>
+          <a href="" class="text-lg text-white col-span-3">Notable works</a>
+          <a href="" class="text-lg text-white col-span-3">Other voices</a>
+          <a href="" class="text-lg text-white col-span-2">Contact</a>
+        </nav>
+      </div>
     </header>
     <main>
-        <section id="info mobile" class="flex flex-col h-auto m-4 md:hidden">
-            <div id="self-portrait" class="flex items-end gap-4 mb-4">
-
-                <img src="../../artwork/untitled-1957.jpg" alt="Artist self portrait" srcset="" class="w-1/5 object-contain">
-                <h2 class="text-3xl">Beksiński</h2>
-
-            </div>
-            <div id="info-text and fake-link" class="flex flex-col">
-                
-            <p id="info-text">
-                Zdzisław Beksiński was born in Sanok, southern Poland. He studied architecture at Kraków Polytechnic in 1947, finishing his studies in 1952. He returned to Sanok in 1955, working as a construction site supervisor, but found that he did not enjoy it. During this period, he had an interest in montage photography, sculpting, and painting. When he first started sculpting, he often used his construction site materials for his medium. His early photography was a precursor to his later paintings, often depicting peculiar wrinkles, desolate landscapes, and still-life faces on rough surfaces. His paintings often depict anxiety, such as torn doll faces, or faces erased or obscured by bandages wrapped around the portrait. His main focus was on abstract painting, although it seems his works in the 1960s were inspired by surrealism.
-            </p>
-            <a id="fake-link" href="" class="text-right text-link-color font-bold underline">Read more</a>
-
-            </div>
-
-        </section>
-        <div class="hidden md:contents">
-            <section
-            id="welcome-page"
-            class="py-12 px-[7%] flex flex-nowrap justify-between"
+      <section id="info mobile" class="flex flex-col h-auto m-4 md:hidden">
+        <div id="self-portrait" class="flex items-end gap-4 mb-4">
+          <img
+            src="../../artwork/untitled-1957.jpg"
+            alt="Artist self portrait"
+            srcset=""
+            class="w-1/5 object-contain"
+          />
+          <h2 class="text-3xl">Beksiński</h2>
+        </div>
+        <div id="info-text and fake-link" class="flex flex-col">
+          <p id="info-text">
+            Zdzisław Beksiński was born in Sanok, southern Poland. He studied
+            architecture at Kraków Polytechnic in 1947, finishing his studies in
+            1952. He returned to Sanok in 1955, working as a construction site
+            supervisor, but found that he did not enjoy it. During this period,
+            he had an interest in montage photography, sculpting, and painting.
+            When he first started sculpting, he often used his construction site
+            materials for his medium. His early photography was a precursor to
+            his later paintings, often depicting peculiar wrinkles, desolate
+            landscapes, and still-life faces on rough surfaces. His paintings
+            often depict anxiety, such as torn doll faces, or faces erased or
+            obscured by bandages wrapped around the portrait. His main focus was
+            on abstract painting, although it seems his works in the 1960s were
+            inspired by surrealism.
+          </p>
+          <a
+            id="fake-link"
+            href=""
+            class="text-right text-link-color font-bold underline"
+            >Read more</a
+          >
+        </div>
+      </section>
+      <div class="hidden md:contents">
+        <section
+          id="welcome-page"
+          class="py-12 px-[7%] flex flex-nowrap justify-between"
         >
-            <!-- Bild på konstnären -->
+          <!-- Bild på konstnären -->
 
-            <div
+          <div
             id="artist photo-portrait"
             class="flex flex-col items-center w-1/5 h-full"
-            >
+          >
             <img
-                src="../../artwork/Beksinski-himself-741x1024.jpg"
-                alt=""
-                class="object-left-bottom object-cover h-full"
+              src="../../artwork/Beksinski-himself-741x1024.jpg"
+              alt=""
+              class="object-left-bottom object-cover h-full"
             />
             <div
-                id="artwork-year"
-                class="border-t-4 border-[#45292A] mt-4 w-11/12 flex justify-center"
+              id="artwork-year"
+              class="border-t-4 border-[#45292A] mt-4 w-11/12 flex justify-center"
             >
-                <p class="text-lg">
+              <p class="text-lg">
                 Zdzisław Beksiński<br />
                 24.02.1929—21.02.2005
-                </p>
+              </p>
             </div>
-            </div>
+          </div>
 
-            <!-- Intro-text om konstnären -->
+          <!-- Intro-text om konstnären -->
 
-            <div id="intro-text" class="w-2/3 lg:w-1/3">
-            <h2 class="text-3xl font-bold text-[#45292A]">Zdzisław Beksiński</h2>
+          <div id="intro-text" class="w-2/3 lg:w-1/3">
+            <h2 class="text-3xl font-bold text-[#45292A]">
+              Zdzisław Beksiński
+            </h2>
             <p class="text-lg">
-                <br />
-                Polish painter, photographer, and sculptor, specializing in the
-                field of dystopian surrealism. Beksiński made his paintings and
-                drawings in what he called either a Baroque or a Gothic manner.
-                <br />
-                <br />
-                His creations were made mainly in two periods. The first period of
-                work is generally considered to contain expressionistic color, with
-                a strong style of "utopian realism" and surreal architecture, like a
-                doomsday scenario. The second period contained more abstract style,
-                with the main features of formalism.
-                <br />
-                <br />
-                Beksiński was stabbed to death at his Warsaw apartment in February
-                2005, by a 19-year-old acquaintance from Wołomin, reportedly because
-                he refused to lend him money.
+              <br />
+              Polish painter, photographer, and sculptor, specializing in the
+              field of dystopian surrealism. Beksiński made his paintings and
+              drawings in what he called either a Baroque or a Gothic manner.
+              <br />
+              <br />
+              His creations were made mainly in two periods. The first period of
+              work is generally considered to contain expressionistic color,
+              with a strong style of "utopian realism" and surreal architecture,
+              like a doomsday scenario. The second period contained more
+              abstract style, with the main features of formalism.
+              <br />
+              <br />
+              Beksiński was stabbed to death at his Warsaw apartment in February
+              2005, by a 19-year-old acquaintance from Wołomin, reportedly
+              because he refused to lend him money.
             </p>
-            </div>
+          </div>
 
-            <!-- Dystopisk målning -->
+          <!-- Dystopisk målning -->
 
-            <div id="art-example" class="hidden lg:flex flex-col items-center w-1/3">
+          <div
+            id="art-example"
+            class="hidden lg:flex flex-col items-center w-1/3"
+          >
             <img
-                src="../../artwork/gothic-dystopian-postapocalyptic-surreal-paintings-zdzisław-beksinski-12.jpg"
-                alt=""
-                class="object-center object-cover w-full"
+              src="../../artwork/gothic-dystopian-postapocalyptic-surreal-paintings-zdzisław-beksinski-12.jpg"
+              alt=""
+              class="object-center object-cover w-full"
             />
             <div
-                id="artwork-year"
-                class="border-t-4 border-[#45292A] mt-4 w-11/12 flex justify-center"
+              id="artwork-year"
+              class="border-t-4 border-[#45292A] mt-4 w-11/12 flex justify-center"
             >
-                <p class="text-lg">
+              <p class="text-lg">
                 Surrealistic, post-apocalyptic<br />environment,1980s
-                </p>
+              </p>
             </div>
-            </div>
+          </div>
         </section>
-        </div>
-        <section
+      </div>
+      <section
         id="about the artist"
         class="border-y-4 border-[#45292A] h-auto flex-nowrap my-12 pl-[7%] hidden md:flex"
       >
@@ -306,159 +343,263 @@
           </div>
         </div>
       </section>
-        <section id="img gallery mobile" class="flex flex-nowrap overflow-x-auto snap-x mx-4 mt-4 gap-x-2 text-lg font-semibold md:hidden">
-            <div class="w-full sm:w-1/2 aspect-square flex-none snap-center grid">
-                <img class="place-self-center w-full h-full" src="../../artwork/1968-untititled.jpg" alt="">
-                <div class="w-11/12 h-1 bg-secundary rounded-sm mx-auto mt-4"></div>
-                <p class="text-center mt-4">untitled-1968</p>
-             </div>
-            <div class="w-full sm:w-1/2 aspect-square flex-none snap-center grid">
-                <img class="place-self-center" src="../../artwork/untitled-1972.jpg" alt="">
-                <div class="w-11/12 h-1 bg-secundary rounded-sm mx-auto mt-4"></div>
-                <p class="text-center mt-4">untitled-1972</p>
-             </div>
-            <div class="w-full sm:w-1/2 aspect-square flex-none snap-center grid">
-                <img class="place-self-center" src="../../artwork/untitled-1973.jpg" alt="">
-                <div class="w-11/12 h-1 bg-secundary rounded-sm mx-auto mt-4"></div>
-                <p class="text-center mt-4">untitled-1973</p>
-             </div>
-            <div class="w-full sm:w-1/2 aspect-square flex-none snap-center grid">
-                <img class="place-self-center" src="../../artwork/1973-untititled2.jpg" alt="">
-                <div class="w-11/12 h-1 bg-secundary rounded-sm mx-auto mt-4"></div>
-                <p class="text-center mt-4">untitled-1973</p>
-             </div>
-            <div class="w-full sm:w-1/2 aspect-square flex-none snap-center grid">
-                <img class="place-self-center" src="../../artwork/untitled-1975.jpg" alt="">
-                <div class="w-11/12 h-1 bg-secundary rounded-sm mx-auto mt-4"></div>
-                <p class="text-center mt-4">untitled-1975</p>
-             </div>
-             <div class="w-full sm:w-1/2 aspect-square flex-none snap-center grid">
-                <img sclass="place-self-center" src="../../artwork/1978_untitled.jpg" alt="">
-                <div class="w-11/12 h-1 bg-secundary rounded-sm mx-auto mt-4"></div>
-                <p class="text-center mt-4">untitled-1978</p>
-             </div>
-            <div class="w-full sm:w-1/2 aspect-square flex-none snap-center grid">
-                <img class="place-self-center" src="../../artwork/untitled-1978.jpg" alt="">
-                <div class="w-11/12 h-1 bg-secundary rounded-sm mx-auto mt-4"></div>
-                <p class="text-center mt-4">untitled-1971</p>
-             </div>
-            <div class="w-full sm:w-1/2 aspect-square flex-none snap-center grid">
-                <img class="place-self-center" src="../../artwork/1981-untititled.jpg" alt="">
-                <div class="w-11/12 h-1 bg-secundary rounded-sm mx-auto mt-4"></div>
-                <p class="text-center mt-4">untitled-1971</p>
-             </div>
-            <div class="w-full sm:w-1/2 aspect-square flex-none snap-center grid">
-                <img class="place-self-center" src="../../artwork/1985_KO.jpg" alt="">
-                <div class="w-11/12 h-1 bg-secundary rounded-sm mx-auto mt-4"></div>
-                <p class="text-center mt-4">untitled-1971</p>
-             </div>
-             <div class="w-full sm:w-1/2 aspect-square flex-none snap-center grid">
-                <img sclass="place-self-center" src="../../artwork/1986_untitled.jpg" alt="">
-                <div class="w-11/12 h-1 bg-secundary rounded-sm mx-auto mt-4"></div>
-                <p class="text-center mt-4">untitled-1971</p>
-             </div>
-            <div class="w-full sm:w-1/2 aspect-square flex-none snap-center grid">
-                <img class="place-self-center" src="../../artwork/1980-untititled.jpg" alt="">
-                <div class="w-11/12 h-1 bg-secundary rounded-sm mx-auto mt-4"></div>
-                <p class="text-center mt-4">untitled-1971</p>
-             </div>
-            <div class="w-full sm:w-1/2 aspect-square flex-none snap-center grid">
-                <img class="place-self-center" src="../../artwork/Z-6 1988.jpg" alt="">
-                <div class="w-11/12 h-1 bg-secundary rounded-sm mx-auto mt-4"></div>
-                <p class="text-center mt-4">untitled-1971</p>
-             </div>
-        </section>
-        <section id="img gallery desktop" class="overflow-hidden hidden md:contents">
-            <div class="container px-4 py-2 mx-auto">
-                <div class="flex flex-wrap -m-1">
-                    <div id="img" class="flex flex-wrap w-1/4">
-                        <div class="w-full p-1">
-                            <img src="../../artwork/1968-untititled.jpg" class="block object-cover object-center w-full h-full rounded-lg">
-                        </div>
-                    </div>
-                    <div id="img" class="flex flex-wrap w-1/4">
-                        <div class="w-full p-1">
-                            <img src="../../artwork/untitled-1972.jpg" class="block object-cover object-center w-full h-full rounded-lg">
-                        </div>
-                    </div>
-                    <div id="img" class="flex flex-wrap w-1/4">
-                        <div class="w-full p-1">
-                            <img src="../../artwork/untitled-1973.jpg" class="block object-cover object-center w-full h-full rounded-lg">
-                        </div>
-                    </div>
-                    <div id="img" class="flex flex-wrap w-1/4">
-                        <div class="w-full p-1">
-                            <img src="../../artwork/1973-untititled2.jpg" class="block object-cover object-center w-full h-full rounded-lg">
-                        </div>
-                    </div>
-                    <div id="img" class="flex flex-wrap w-1/4">
-                        <div class="w-full p-1">
-                            <img src="../../artwork/untitled-1975.jpg" class="block object-cover object-center w-full h-full rounded-lg">
-                        </div>
-                    </div>
-                    <div id="img" class="flex flex-wrap w-1/4">
-                        <div class="w-full p-1">
-                            <img src="../../artwork/1978_untitled.jpg" class="block object-cover object-center w-full h-full rounded-lg">
-                        </div>
-                    </div>
-                    <div id="img" class="flex flex-wrap w-1/4">
-                        <div class="w-full p-1">
-                            <img src="../../artwork/untitled-1978.jpg" class="block object-cover object-center w-full h-full rounded-lg">
-                        </div>
-                    </div>
-                    <div id="img" class="flex flex-wrap w-1/4">
-                        <div class="w-full p-1">
-                            <img src="../../artwork/1981-untititled.jpg" class="block object-cover object-center w-full h-full rounded-lg">
-                        </div>
-                    </div>
-                    <div id="img" class="flex flex-wrap w-1/4">
-                        <div class="w-full p-1">
-                            <img src="../../artwork/1985_KO.jpg" class="block object-cover object-center w-full h-full rounded-lg">
-                        </div>
-                    </div>
-                    <div id="img" class="flex flex-wrap w-1/4">
-                        <div class="w-full p-1">
-                            <img src="../../artwork/1986_untitled.jpg" class="block object-cover object-center w-full h-full rounded-lg">
-                        </div>
-                    </div>
-                    <div id="img" class="flex flex-wrap w-1/4">
-                        <div class="w-full p-1">
-                            <img src="../../artwork/1980-untititled.jpg" class="block object-cover object-center w-full h-full rounded-lg">
-                        </div>
-                    </div>
-                    <div id="img" class="flex flex-wrap w-1/4">
-                        <div class="w-full p-1">
-                            <img src="../../artwork/Z-6 1988.jpg" class="block object-cover object-center w-full h-full rounded-lg">
-                        </div>
-                    </div>
-                </div>
+      <section
+        id="img gallery mobile"
+        class="flex flex-nowrap overflow-x-auto snap-x mx-4 mt-4 gap-x-2 text-lg font-semibold md:hidden"
+      >
+        <div class="w-full sm:w-1/2 aspect-square flex-none snap-center grid">
+          <img
+            class="place-self-center w-full h-full"
+            src="../../artwork/1968-untititled.jpg"
+            alt=""
+          />
+          <div class="w-11/12 h-1 bg-secundary rounded-sm mx-auto mt-4"></div>
+          <p class="text-center mt-4">untitled-1968</p>
+        </div>
+        <div class="w-full sm:w-1/2 aspect-square flex-none snap-center grid">
+          <img
+            class="place-self-center"
+            src="../../artwork/untitled-1972.jpg"
+            alt=""
+          />
+          <div class="w-11/12 h-1 bg-secundary rounded-sm mx-auto mt-4"></div>
+          <p class="text-center mt-4">untitled-1972</p>
+        </div>
+        <div class="w-full sm:w-1/2 aspect-square flex-none snap-center grid">
+          <img
+            class="place-self-center"
+            src="../../artwork/untitled-1973.jpg"
+            alt=""
+          />
+          <div class="w-11/12 h-1 bg-secundary rounded-sm mx-auto mt-4"></div>
+          <p class="text-center mt-4">untitled-1973</p>
+        </div>
+        <div class="w-full sm:w-1/2 aspect-square flex-none snap-center grid">
+          <img
+            class="place-self-center"
+            src="../../artwork/1973-untititled2.jpg"
+            alt=""
+          />
+          <div class="w-11/12 h-1 bg-secundary rounded-sm mx-auto mt-4"></div>
+          <p class="text-center mt-4">untitled-1973</p>
+        </div>
+        <div class="w-full sm:w-1/2 aspect-square flex-none snap-center grid">
+          <img
+            class="place-self-center"
+            src="../../artwork/untitled-1975.jpg"
+            alt=""
+          />
+          <div class="w-11/12 h-1 bg-secundary rounded-sm mx-auto mt-4"></div>
+          <p class="text-center mt-4">untitled-1975</p>
+        </div>
+        <div class="w-full sm:w-1/2 aspect-square flex-none snap-center grid">
+          <img
+            sclass="place-self-center"
+            src="../../artwork/1978_untitled.jpg"
+            alt=""
+          />
+          <div class="w-11/12 h-1 bg-secundary rounded-sm mx-auto mt-4"></div>
+          <p class="text-center mt-4">untitled-1978</p>
+        </div>
+        <div class="w-full sm:w-1/2 aspect-square flex-none snap-center grid">
+          <img
+            class="place-self-center"
+            src="../../artwork/untitled-1978.jpg"
+            alt=""
+          />
+          <div class="w-11/12 h-1 bg-secundary rounded-sm mx-auto mt-4"></div>
+          <p class="text-center mt-4">untitled-1971</p>
+        </div>
+        <div class="w-full sm:w-1/2 aspect-square flex-none snap-center grid">
+          <img
+            class="place-self-center"
+            src="../../artwork/1981-untititled.jpg"
+            alt=""
+          />
+          <div class="w-11/12 h-1 bg-secundary rounded-sm mx-auto mt-4"></div>
+          <p class="text-center mt-4">untitled-1971</p>
+        </div>
+        <div class="w-full sm:w-1/2 aspect-square flex-none snap-center grid">
+          <img
+            class="place-self-center"
+            src="../../artwork/1985_KO.jpg"
+            alt=""
+          />
+          <div class="w-11/12 h-1 bg-secundary rounded-sm mx-auto mt-4"></div>
+          <p class="text-center mt-4">untitled-1971</p>
+        </div>
+        <div class="w-full sm:w-1/2 aspect-square flex-none snap-center grid">
+          <img
+            sclass="place-self-center"
+            src="../../artwork/1986_untitled.jpg"
+            alt=""
+          />
+          <div class="w-11/12 h-1 bg-secundary rounded-sm mx-auto mt-4"></div>
+          <p class="text-center mt-4">untitled-1971</p>
+        </div>
+        <div class="w-full sm:w-1/2 aspect-square flex-none snap-center grid">
+          <img
+            class="place-self-center"
+            src="../../artwork/1980-untititled.jpg"
+            alt=""
+          />
+          <div class="w-11/12 h-1 bg-secundary rounded-sm mx-auto mt-4"></div>
+          <p class="text-center mt-4">untitled-1971</p>
+        </div>
+        <div class="w-full sm:w-1/2 aspect-square flex-none snap-center grid">
+          <img
+            class="place-self-center"
+            src="../../artwork/Z-6 1988.jpg"
+            alt=""
+          />
+          <div class="w-11/12 h-1 bg-secundary rounded-sm mx-auto mt-4"></div>
+          <p class="text-center mt-4">untitled-1971</p>
+        </div>
+      </section>
+      <section
+        id="img gallery desktop"
+        class="overflow-hidden hidden md:contents"
+      >
+        <div class="container px-4 py-2 mx-auto">
+          <div class="flex flex-wrap -m-1">
+            <div id="img" class="flex flex-wrap w-1/4">
+              <div class="w-full p-1">
+                <img
+                  src="../../artwork/1968-untititled.jpg"
+                  class="block object-cover object-center w-full h-full rounded-lg"
+                />
+              </div>
             </div>
-        </section>
-        <section id="other voices" class="flex flex-col h-auto m-4 md:hidden">
+            <div id="img" class="flex flex-wrap w-1/4">
+              <div class="w-full p-1">
+                <img
+                  src="../../artwork/untitled-1972.jpg"
+                  class="block object-cover object-center w-full h-full rounded-lg"
+                />
+              </div>
+            </div>
+            <div id="img" class="flex flex-wrap w-1/4">
+              <div class="w-full p-1">
+                <img
+                  src="../../artwork/untitled-1973.jpg"
+                  class="block object-cover object-center w-full h-full rounded-lg"
+                />
+              </div>
+            </div>
+            <div id="img" class="flex flex-wrap w-1/4">
+              <div class="w-full p-1">
+                <img
+                  src="../../artwork/1973-untititled2.jpg"
+                  class="block object-cover object-center w-full h-full rounded-lg"
+                />
+              </div>
+            </div>
+            <div id="img" class="flex flex-wrap w-1/4">
+              <div class="w-full p-1">
+                <img
+                  src="../../artwork/untitled-1975.jpg"
+                  class="block object-cover object-center w-full h-full rounded-lg"
+                />
+              </div>
+            </div>
+            <div id="img" class="flex flex-wrap w-1/4">
+              <div class="w-full p-1">
+                <img
+                  src="../../artwork/1978_untitled.jpg"
+                  class="block object-cover object-center w-full h-full rounded-lg"
+                />
+              </div>
+            </div>
+            <div id="img" class="flex flex-wrap w-1/4">
+              <div class="w-full p-1">
+                <img
+                  src="../../artwork/untitled-1978.jpg"
+                  class="block object-cover object-center w-full h-full rounded-lg"
+                />
+              </div>
+            </div>
+            <div id="img" class="flex flex-wrap w-1/4">
+              <div class="w-full p-1">
+                <img
+                  src="../../artwork/1981-untititled.jpg"
+                  class="block object-cover object-center w-full h-full rounded-lg"
+                />
+              </div>
+            </div>
+            <div id="img" class="flex flex-wrap w-1/4">
+              <div class="w-full p-1">
+                <img
+                  src="../../artwork/1985_KO.jpg"
+                  class="block object-cover object-center w-full h-full rounded-lg"
+                />
+              </div>
+            </div>
+            <div id="img" class="flex flex-wrap w-1/4">
+              <div class="w-full p-1">
+                <img
+                  src="../../artwork/1986_untitled.jpg"
+                  class="block object-cover object-center w-full h-full rounded-lg"
+                />
+              </div>
+            </div>
+            <div id="img" class="flex flex-wrap w-1/4">
+              <div class="w-full p-1">
+                <img
+                  src="../../artwork/1980-untititled.jpg"
+                  class="block object-cover object-center w-full h-full rounded-lg"
+                />
+              </div>
+            </div>
+            <div id="img" class="flex flex-wrap w-1/4">
+              <div class="w-full p-1">
+                <img
+                  src="../../artwork/Z-6 1988.jpg"
+                  class="block object-cover object-center w-full h-full rounded-lg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="other voices" class="flex flex-col h-auto m-4 md:hidden">
+        <div id="info-text and fake-link" class="flex flex-col">
+          <p id="info-text" class="mb-4 font-semibold text-secundary">
+            The Tragic Story of Zdzisław Beksiński, the Artist Who Inspired
+            Guillermo del Toro
+          </p>
 
-            <div id="info-text and fake-link" class="flex flex-col">
-                
-            <p id="info-text" class="mb-4 font-semibold text-secundary">
-                The Tragic Story of Zdzisław Beksiński, the Artist Who Inspired Guillermo del Toro
-            </p>
-                
-            <p id="info-text" class="mb-4">
-                Jonny Blair</br>
-                10 June 2018
-            </p>
-                    
-            <p id="info-text" class="mb-4">
-                As far as Polish art goes, Zdzisław Beksiński was a pioneer and a well-respected artist who sadly died too early. Beksiński was a modern-day surrealispainter,photographer and sculptor with a mind for the obscure. His paintings concocted up odd images in the mind, and were a true step into absurdity ithe field ofdystopian surrealism.
-            </p>
-                        
-            <p id="info-text" class="mb-4">
-                Beksiński painted in a style that he called either a ‘baroque’ or ‘gothic’ format. He drew up images in the mind that represent a macabre surrealist outlookfrom a  dystopian world. His paintings depict blood, skeletons, horror, love, hell and many dark aspects of life and death. This led to an admiring fan base theworld over,  particularly those into gruesome art of a gory and imaginative nature beyond the realms of reality
-                ....
-            </p>
-            <a id="fake-link" href="" class="text-right text-link-color font-bold underline">Read more</a>
-            </div>
-        </section>
-        <section
+          <p id="info-text" class="mb-4">
+            Jonny Blair<br />
+            10 June 2018
+          </p>
+
+          <p id="info-text" class="mb-4">
+            As far as Polish art goes, Zdzisław Beksiński was a pioneer and a
+            well-respected artist who sadly died too early. Beksiński was a
+            modern-day surrealispainter,photographer and sculptor with a mind
+            for the obscure. His paintings concocted up odd images in the mind,
+            and were a true step into absurdity ithe field ofdystopian
+            surrealism.
+          </p>
+
+          <p id="info-text" class="mb-4">
+            Beksiński painted in a style that he called either a ‘baroque’ or
+            ‘gothic’ format. He drew up images in the mind that represent a
+            macabre surrealist outlookfrom a dystopian world. His paintings
+            depict blood, skeletons, horror, love, hell and many dark aspects of
+            life and death. This led to an admiring fan base theworld over,
+            particularly those into gruesome art of a gory and imaginative
+            nature beyond the realms of reality ....
+          </p>
+          <a
+            id="fake-link"
+            href=""
+            class="text-right text-link-color font-bold underline"
+            >Read more</a
+          >
+        </div>
+      </section>
+      <section
         id="other-voices"
         class="border-y-4 border-[#45292A] h-auto hidden md:flex flex-nowrap my-12 pl-[7%]"
       >
@@ -593,29 +734,34 @@
       </section>
     </main>
     <footer class="bg-secundary text-white">
-        <div class="px-4 pb-4 pt-3 md:hidden">
+      <div class="px-4 pb-4 pt-3 md:hidden">
+        <h2>Nightmare artist fans:</h2>
+        <p>E-mail: polishhorrorartistfans@surrart.pl</p>
+        <p>Phone: +48 22 666 13 13</p>
+      </div>
+      <div class="hidden md:contents text-base sm:text-sm lg:text-base">
+        <div class="grid grid-cols-12 grid-rows-4 px-8">
+          <h2 class="col-start-2 row-start-1 pt-4">contact</h2>
+          <div class="col-start-3 col-span-5 row-start-2 row-span-3 py-4">
             <h2>Nightmare artist fans:</h2>
-            <p>E-mail: polishhorrorartistfans@surrart.pl</p>
-            <p>Phone: +48 22 666 13 13</p>
+            <p class="mt-10">E-mail: polishhorrorartistfans@surrart.pl</p>
+            <p class="mt-6">Phone: +48 22 666 13 13</p>
+          </div>
+          <div class="col-start-8 col-span-4 row-start-2 row-span-3 py-4">
+            <form>
+              <label for="newsLetter">Sign up to newsLetter:</label>
+              <input
+                class="px-2.5 w-11/12"
+                id="newsLetter"
+                type="text"
+                placeholder="example@yourmail.com"
+              />
+            </form>
+            <p class="mt-4 mb-6">More information</p>
+            <a href="">Links</a>
+          </div>
         </div>
-        <div class="hidden md:contents text-base sm:text-sm lg:text-base">
-            <div class="grid grid-cols-12 grid-rows-4 px-8">
-                <h2 class="col-start-2 row-start-1 pt-4">contact</h2>
-                <div class="col-start-3 col-span-5 row-start-2 row-span-3 py-4">
-                    <h2>Nightmare artist fans:</h2>
-                    <p class="mt-10">E-mail: polishhorrorartistfans@surrart.pl</p>
-                    <p class="mt-6">Phone: +48 22 666 13 13</p>
-                </div>
-                <div class="col-start-8 col-span-4 row-start-2 row-span-3 py-4">
-                    <form>
-                        <label for="newsLetter">Sign up to newsLetter:</label>
-                        <input class="px-2.5 w-11/12" id="newsLetter" type="text" placeholder="example@yourmail.com">
-                    </form>
-                    <p class="mt-4 mb-6">More information</p>
-                    <a href="">Links</a>
-                </div>
-            </div>
-        </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
