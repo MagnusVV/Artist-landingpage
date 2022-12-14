@@ -1,0 +1,42 @@
+/* @font-face {
+  font-family: "Noto-sans-regular";
+  src: url("../../fonts/Noto_Sans/NotoSans-Regular.ttf") format("ttf");
+  src: url("../../fonts/Notosans-regular.woff") format("woff");
+  src: url("../../fonts/NotoSans-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Noto-sans-medium";
+  src: url("../../fonts/Noto_Sans/NotoSans-Medium.ttf") format("ttf");
+  src: url("../../fonts/Notosans-medium.woff") format("woff");
+  src: url("../../fonts/Notosans-medium.woff2") format("woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Noto-sans-semibold";
+  src: url("../../fonts/Noto_Sans/NotoSans-SemiBold.ttf") format("ttf");
+  src: url("../../fonts/Notosans-semibold.woff") format("woff");
+  src: url("../../fonts/Notosans-semibold.woff2") format("woff2");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Noto-sans-bold";
+  src: url("../../fonts/Noto_Sans/NotoSans-Bold.ttf") format("ttf");
+  src: url("../../fonts/Notosans-bold.woff") format("woff");
+  src: url("../../fonts/NotoSans-Bold.woff2") format("woff2");
+  font-weight: 700;
+} */
+
+h1,
+h2,
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a,
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
