@@ -1153,6 +1153,11 @@ video {
     --tw-bg-opacity: 1;
     background-color: rgb(130 97 56 / var(--tw-bg-opacity));
   }
+
+  .md\:text-white {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
 }
 
 @media (min-width: 1024px) {
