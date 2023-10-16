@@ -3,6 +3,8 @@
 ## About
 The final project for the course in Digital Design. A collaborative effort with another student, the task was to create a Figma prototype and then a responsive landing-webpage from that prototype. This was the first time we tried our hands on Tailwind CSS, and it was quite the challenge. :)
 
+![image](https://github.com/MagnusVV/Artist-landingpage/assets/112693199/da14de07-013b-483a-8ac6-47ff340f2b2a)
+
 ### Participants
 MagnusVV, styrbjorn-n
 
