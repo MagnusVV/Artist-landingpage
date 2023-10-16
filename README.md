@@ -10,4 +10,4 @@ MagnusVV, styrbjorn-n
 
 We choose the polish painter Zdzisław Beksiński as subject, and the page contains some facts about him as well as some examples of his works. Due to time constraints we worked from two different directions: I built the desktop version and down, and styrbjorn-n build the mobile version and up. The finished product has got some limited interactivity, but the task was mostly to create something as similar as the prototype as possible, and in that we succeeded.
 
-There wasn't a task condition for it to be deployed, so we didn't. We didn't quite found the time for it.
+There wasn't a task condition for it to be deployed, so we didn't. We didn't quite find the time for it.
